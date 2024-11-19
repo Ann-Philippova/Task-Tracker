@@ -1,0 +1,113 @@
+@media (max-width: 1050px) {
+    .nav, .appstore {
+        display: none;
+    }
+
+    .mobile-nav-button {
+        display: flex;
+    }
+
+    .nav-list__item {
+        margin: 0px;
+    }
+    
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .main {
+        padding: 100px 0px;
+    }
+
+    .main-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-content {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .footer {
+        height: 150px;
+    }
+    
+    
+    .footer-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    
+    .footer-socials {
+        padding-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        height: 53px;
+    }
+    
+    .main-header {
+        font-size: 60px;
+    }
+
+    .main-text p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 18px;
+    }
+
+    .main {
+         padding: 57px 0px;
+    }
+
+    .main-content {
+        padding-bottom: 40px;
+    }
+
+    .main-img {
+        margin: 0 auto;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .main-header {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    
+    .button {
+        font-size: 16px;
+    }
+
+    .mobile-nav-button__icon {
+        width: 30px;
+        height: 4px;
+    }
+
+    .mobile-nav-button__icon::before {
+        width: 30px;
+        height: 4px;
+        top: 8px;
+    }
+
+    .mobile-nav-button__icon::after {
+        width: 30px;
+        height: 4px;
+        top: -8px;
+    }
+
+    .mobile-nav-list {
+        font-size: 24px;
+    }
+}
